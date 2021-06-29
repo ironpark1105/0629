@@ -1,0 +1,52 @@
+#forest1 .treewrap .rabbit1 {
+    animation: spinrabbitone 1000ms linear infinite alternate;
+}
+
+@keyframes spinrabbitone {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(10deg);}
+    
+}
+#forest1 .treewrap .rabbit2 {
+    animation: spinrabbitone 1000ms linear infinite alternate;
+}
+
+@keyframes spinrabbittwo {
+    from {transform: rotate(10deg);}
+    to {transform: rotate(0deg);}
+    
+}
+
+#forest2 .machinewrap2 .machineleft {
+    animation: moveleft 1s linear infinite alternate;
+}
+
+@keyframes moveleft {
+    from {left: 30px;}
+    to {left: 0;}
+}
+
+#forest2 .machinewrap2 .machineright {
+    animation: moveright 1s linear infinite alternate;
+}
+
+@keyframes moveright {
+    from {left: -30px;}
+    to {left: 0;}
+}
+
+#forest3 .forest3wrap .smallbird {
+    animation: spinsmallbird 1000ms linear infinite alternate;
+}
+@keyframes spinsmallbird {
+    from{transform: rotate(0deg);}
+    to {transform: rotate(10deg);}
+}
+
+#forest3 .forest3wrap .bigbird {
+    animation: spinbigbird 1000ms linear infinite alternate;
+}
+@keyframes spinbigbird {
+    from{transform: rotate(-10deg);}
+    to {transform: rotate(10deg);}
+}
